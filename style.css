@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --text-color: #222;
+    --subheading-color: #a0a0a0;
+    --placeholder-color: #6c6c6c;
+    --primary-color: #fff;
+    --secondary-color: #E9EEF6;
+    --secondary-hover-color: #dbe1ea;
+}
+
+body {
+    background: var(--primary-color);
+}
+
+.header {
+    width: 100%;
+    text-align: center; 
+    margin: auto;
+    margin-top: 15%;
+}
+
+.header .title {   
+    margin: auto;
+    width: 600px;
+    font-weight: 200;
+    font-size: 48px; 
+    color: var(--text-color);
+}
+
+.gemini {
+    background: linear-gradient(to right, #4285f4, #d96578); /* fixed spelling */
+    -webkit-background-clip: text;   /* needed for gradient text */
+    -webkit-text-fill-color: transparent; /* makes gradient visible */
+}
+
+.typing-area {
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    margin-top: 100px;
+}
+.input-wrapper{
+    border: 1px solid #222;
+    padding: .5rem; 
+    border-radius: 20px;
+   
+}
+
+.input-wrapper input{
+    width: 50vw;
+    height:30px;
+    border-radius: 10px;
+    border: none;
+}
+.input-wrapper input:focus{
+    outline:none;
+}
+#send-message-button{
+    border: none;
+    background: #efefef;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    
+}
